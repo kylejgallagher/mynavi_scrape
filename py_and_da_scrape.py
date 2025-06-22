@@ -104,7 +104,7 @@ scrape_da()
 df_py = pd.DataFrame(job_listings_python)
 df_da = pd.DataFrame(job_listings_da)
 
-with open('CareerCross Job Scrape.csv', 'w') as f:
+with open('Mynavi Job Scrape.csv', 'w') as f:
     df_da.to_csv(f, index=False)
     f.write('\n')
     df_py.to_csv(f, index=False)
